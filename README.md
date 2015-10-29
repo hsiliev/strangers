@@ -1,14 +1,19 @@
 # strangers
-Don't talk to strangers (ISTA)
+Don't talk to strangers [ISTA](https://istacon.org/)
 
 
 Prerequisites
 -------------
 
-* [git](https://git-scm.com/downloads)
-* [docker](https://www.docker.com/)
+To clone the project you'll need [git](https://git-scm.com/downloads)
+
+To execute it locally and modify it:
 * [java](https://java.com/en/download/)
 * [maven](https://maven.apache.org/)
+
+Running as container requires:
+* Linux distro or [Docker Machine](https://docs.docker.com/machine/) on MacOS
+* [docker](https://www.docker.com/)
 
 Clone the project
 -----------------
