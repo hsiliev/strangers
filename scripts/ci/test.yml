@@ -1,0 +1,10 @@
+---
+platform: linux
+
+image: docker:///maven:3.3.3-jdk-8-onbuild
+
+inputs:
+- name: fiscal
+
+run:
+  path: mvn verify

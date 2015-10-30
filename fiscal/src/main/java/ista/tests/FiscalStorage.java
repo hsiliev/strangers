@@ -17,19 +17,14 @@ public class FiscalStorage {
         }
     }
 
-    public synchronized void reset() throws IOException {
-        Files.delete(STORAGE_PATH);
-        Files.createFile(STORAGE_PATH);
-    }
-
-    public synchronized float load() throws IOException {
+    public synchronized long load() throws IOException {
         try (Stream<String> lines = Files.lines(STORAGE_PATH)) {
-            return lines.map(Float::valueOf).reduce(0f, Float::sum);
+            return lines.map(Long::valueOf).reduce(0L, Long::sum);
         }
     }
 
-    public synchronized void save(float amount) throws IOException {
-        byte[] data = String.format("%f\n", amount).getBytes();
+    public synchronized void save(long amount) throws IOException {
+        byte[] data = String.format("%d\n", amount).getBytes();
         Files.write(STORAGE_PATH, data, StandardOpenOption.CREATE, StandardOpenOption.APPEND);
     }
 }

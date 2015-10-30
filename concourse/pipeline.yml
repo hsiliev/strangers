@@ -1,0 +1,22 @@
+resources:
+  - name: fiscal
+    type: git
+    source:
+      uri: https://github.com/hsiliev/strangers.git
+      branch: master
+
+jobs:
+  - name: fiscal1
+    plan:
+      - get: fiscal
+      - task: build
+        file: scripts/ci/build.yml
+      - task: test
+        file: scripts/ci/test.yml
+  - name: fiscal2
+    plan:
+      - get: fiscal
+      - task: build
+        file: scripts/ci/build.yml
+      - task: test
+        file: scripts/ci/test.yml

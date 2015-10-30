@@ -5,47 +5,47 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.util.Random;
+import java.util.stream.LongStream;
 
 import static junit.framework.TestCase.assertEquals;
 
 public class FiscalStorageTest {
 
     private FiscalStorage storage;
+    private long sumAmount;
 
     @Before
     public void setup() throws IOException {
         storage = new FiscalStorage();
+        sumAmount = 0;
     }
 
     @After
     public void cleanup() throws IOException {
-        storage.reset();
+        saveCash(-sumAmount);
     }
 
     @Test
     public void loadNew() throws IOException {
-        assertEquals(0f, storage.load());
+        assertEquals(0, storage.load());
+    }
+
+    private void saveCash(long amount) throws IllegalStateException {
+        try {
+            storage.save(amount);
+            sumAmount += amount;
+        } catch (IOException e) {
+            throw new IllegalStateException(e);
+        }
     }
 
     @Test
-    public void sumPositive() throws IOException {
-        storage.save(10);
-        storage.save(6);
-        assertEquals(16f, storage.load());
+    public void sumMany() throws IOException {
+        LongStream stream = new Random().longs(40000);
+        stream.forEach(this::saveCash);
+
+        assertEquals(sumAmount, storage.load());
     }
 
-    @Test
-    public void sumNegative() throws IOException {
-        storage.save(10);
-        storage.save(-4);
-        storage.save(14);
-        assertEquals(20f, storage.load());
-    }
-
-    @Test
-    public void resetStorage() throws IOException {
-        storage.save(10);
-        storage.reset();
-        assertEquals(0f, storage.load());
-    }
 }

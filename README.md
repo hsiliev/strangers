@@ -38,3 +38,20 @@ Run in container
 ```
 docker build -t fiscal .
 ```
+
+Start Concourse
+---------------
+
+From `strangers/fiscal` directory:
+
+```
+cd ../concourse
+vagrant up
+```
+
+Request `http://192.168.100.4:8080` and download the Fly CLI from the bottom-right.
+
+
+Upload the pipeline
+-------------------
+
