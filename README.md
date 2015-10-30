@@ -58,5 +58,5 @@ Upload the pipeline
 From `concourse` directory:
 
 ```
-fly c fiscal -c pipeline.yml
+fly configure fiscal -c pipeline.yml
 ```

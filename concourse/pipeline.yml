@@ -10,13 +10,13 @@ jobs:
     plan:
       - get: fiscal
       - task: build
-        file: scripts/ci/build.yml
+        file: fiscal/scripts/ci/build.yml
       - task: test
-        file: scripts/ci/test.yml
+        file: fiscal/scripts/ci/test.yml
   - name: build_2
     plan:
       - get: fiscal
       - task: build
-        file: scripts/ci/build.yml
+        file: fiscal/scripts/ci/build.yml
       - task: test
-        file: scripts/ci/test.yml
+        file: fiscal/scripts/ci/test.yml
