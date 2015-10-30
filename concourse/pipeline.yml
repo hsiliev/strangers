@@ -22,3 +22,9 @@ jobs:
         file: fiscal/scripts/ci/build.yml
       - task: test
         file: fiscal/scripts/ci/test.yml
+  - name: package
+    plan:
+      - get: fiscal
+        passed: [build_1, build_2]
+      - task: package
+        file: fiscal/scripts/package.yml

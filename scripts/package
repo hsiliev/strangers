@@ -4,5 +4,5 @@ set -e -x -u
 
 pushd fiscal
   cd fiscal
-  mvn compile
+  mvn package
 popd
