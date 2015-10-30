@@ -8,4 +8,5 @@ inputs:
 
 run:
   path: mvn
-  args: package
+  args:
+  - package

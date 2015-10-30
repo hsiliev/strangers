@@ -9,6 +9,7 @@ jobs:
   - name: build_1
     plan:
       - get: fiscal
+        trigger: true
       - task: build
         file: fiscal/scripts/ci/build.yml
       - task: test
@@ -16,6 +17,7 @@ jobs:
   - name: build_2
     plan:
       - get: fiscal
+        trigger: true
       - task: build
         file: fiscal/scripts/ci/build.yml
       - task: test
