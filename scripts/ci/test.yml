@@ -7,6 +7,4 @@ inputs:
 - name: fiscal
 
 run:
-  path: mvn
-  args:
-  - verify
+  path: fiscal/scripts/test
