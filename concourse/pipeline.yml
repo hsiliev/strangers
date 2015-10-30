@@ -6,14 +6,14 @@ resources:
       branch: master
 
 jobs:
-  - name: fiscal1
+  - name: build_1
     plan:
       - get: fiscal
       - task: build
         file: scripts/ci/build.yml
       - task: test
         file: scripts/ci/test.yml
-  - name: fiscal2
+  - name: build_2
     plan:
       - get: fiscal
       - task: build

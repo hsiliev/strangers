@@ -55,3 +55,8 @@ Request `http://192.168.100.4:8080` and download the Fly CLI from the bottom-rig
 Upload the pipeline
 -------------------
 
+From `concourse` directory:
+
+```
+fly c fiscal -c pipeline.yml
+```

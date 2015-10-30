@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86787fba-131f-45f6-a048-2af04f7aac25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ci/build.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/ci/test.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fiscal/src/main/java/ista/tests/FiscalStorage.java" afterPath="$PROJECT_DIR$/fiscal/src/main/java/ista/tests/FiscalStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fiscal/src/test/java/ista/tests/FiscalStorageTest.java" afterPath="$PROJECT_DIR$/fiscal/src/test/java/ista/tests/FiscalStorageTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concourse/pipeline.yml" afterPath="$PROJECT_DIR$/concourse/pipeline.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strangers.iws" afterPath="$PROJECT_DIR$/strangers.iws" />
     </list>
     <ignored path="strangers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,27 +34,27 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.655172">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="34" />
+            <state vertical-scroll-proportion="-37.86207">
+              <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipeline.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pipeline.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/concourse/pipeline.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.21310182">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/ci/build.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12786108">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
@@ -129,12 +124,12 @@
         <option value="$PROJECT_DIR$/fiscal/Dockerfile" />
         <option value="$PROJECT_DIR$/fiscal/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/fiscal/src/test/java/ista/tests/FiscalStorageTest.java" />
         <option value="$PROJECT_DIR$/fiscal/src/main/java/ista/tests/FiscalStorage.java" />
-        <option value="$PROJECT_DIR$/concourse/pipeline.yml" />
         <option value="$PROJECT_DIR$/scripts/ci/build.yml" />
         <option value="$PROJECT_DIR$/scripts/ci/test.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/concourse/pipeline.yml" />
       </list>
     </option>
   </component>
@@ -926,12 +921,12 @@
       <option name="number" value="Default" />
       <updated>1446045162414</updated>
       <workItem from="1446045167942" duration="9400000" />
-      <workItem from="1446118632084" duration="6971000" />
+      <workItem from="1446118632084" duration="7106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16371000" />
+    <option name="totallyTimeSpent" value="16506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
@@ -1069,17 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.655172">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fiscal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1136,14 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concourse/pipeline.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ci/test.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1154,8 +1130,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ci/build.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12786108">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-37.86207">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concourse/pipeline.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21310182">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
