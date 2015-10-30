@@ -60,3 +60,8 @@ From `concourse` directory:
 ```
 fly configure fiscal -c pipeline.yml
 ```
+
+Presentation
+------------
+
+Check the [PowerPoint](https://github.com/hsiliev/strangers/blob/master/presentation/Strangers.pptx) or [PDF](https://github.com/hsiliev/strangers/blob/master/presentation/Strangers.pdf) version.
