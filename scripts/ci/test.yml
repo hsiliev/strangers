@@ -7,4 +7,5 @@ inputs:
 - name: fiscal
 
 run:
-  path: mvn verify
+  path: mvn
+  args: verify

@@ -7,4 +7,5 @@ inputs:
 - name: fiscal
 
 run:
-  path: mvn package
+  path: mvn
+  args: package
