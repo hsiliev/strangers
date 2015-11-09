@@ -27,4 +27,8 @@ public class FiscalStorage {
         byte[] data = String.format("%d\n", amount).getBytes();
         Files.write(STORAGE_PATH, data, StandardOpenOption.CREATE, StandardOpenOption.APPEND);
     }
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
 }

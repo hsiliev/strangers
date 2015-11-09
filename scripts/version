@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e -x -u
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+echo $DIR
+
+pushd ${DIR}/../fiscal
+  VERSION=$(mvn org.apache.maven.plugins:maven-help-plugin:2.1.1:evaluate -Dexpression=project.version | egrep -v '^\[|Download.*:' | tr -d ' \r\n')
+popd
+
+echo New version tag: $VERSION
+
+TAG=${DIR}/../release/tag
+echo $VERSION > $TAG
+
+mv fiscal/release/name name
+mv fiscal/release/tag tag

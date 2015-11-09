@@ -3,7 +3,13 @@ resources:
     type: git
     source:
       uri: https://github.com/hsiliev/strangers.git
-      branch: master
+      branch: publish
+  - name: gh-release
+    type: github-release
+    source:
+      user: hsiliev
+      repository: strangers
+      access_token:
 
 jobs:
   - name: build_1
@@ -24,8 +30,16 @@ jobs:
         file: fiscal/scripts/ci/test.yml
   - name: package
     plan:
-      - get: fiscal
+      - get: fiscal	
         trigger: true
         passed: [build_1, build_2]
       - task: package
         file: fiscal/scripts/ci/package.yml
+      - task: version
+        file: fiscal/scripts/ci/version.yml
+      - put: gh-release
+        params:
+          name: version/name
+          tag: version/tag
+          globs:
+          - package/fiscal.jar

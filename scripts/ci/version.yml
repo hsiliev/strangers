@@ -7,4 +7,4 @@ inputs:
 - name: fiscal
 
 run:
-  path: fiscal/scripts/build
+  path: fiscal/scripts/version
