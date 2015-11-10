@@ -12,7 +12,7 @@ public class FiscalStorage {
     private static final Path STORAGE_PATH = FileSystems.getDefault().getPath(STORAGE_DIR, "storage.dat");
 
     public FiscalStorage() throws IOException {
-        if (Files.notExists(STORAGE_PATH)) {
+          if (Files.notExists(STORAGE_PATH)) {
             Files.createFile(STORAGE_PATH);
         }
     }
