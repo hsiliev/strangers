@@ -3,7 +3,7 @@ resources:
     type: git
     source:
       uri: https://github.com/hsiliev/strangers.git
-      branch: publish
+      branch: master
   - name: gh-release
     type: github-release
     source:
