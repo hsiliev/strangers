@@ -42,7 +42,7 @@ public class FiscalStorageTest {
 
     @Test
     public void sumMany() throws IOException {
-        LongStream stream = new Random().longs(2000);
+        LongStream stream = new Random().longs(40000);
         stream.forEach(this::saveCash);
 
         assertEquals(sumAmount, storage.load());
