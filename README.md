@@ -69,4 +69,4 @@ fly set-pipeline -p fiscal -c pipeline.yml
 Presentation
 ------------
 
-Check the [presentation README](https://github.com/hsiliev/strangers/master/presentation/README.md).
+Check the [presentation README](https://github.com/hsiliev/strangers/blob/master/presentation/README.md).
