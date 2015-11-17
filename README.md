@@ -56,14 +56,13 @@ Upload the pipeline
 -------------------
 
 From `concourse` directory:
-
-If you are runnig Windows
-```
-fly set-pipeline /p fiscal /c pipeline.yml
-```
-If you are runnig *NIX
 ```
 fly set-pipeline -p fiscal -c pipeline.yml
+```
+
+If you are runnig Windows try this:
+```
+fly set-pipeline /p fiscal /c pipeline.yml
 ```
 
 Presentation
