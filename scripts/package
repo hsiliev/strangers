@@ -2,7 +2,8 @@
 
 set -e -x -u
 
-pushd fiscal  
+pushd fiscal
+  cd fiscal
   mvn install
 popd
 
