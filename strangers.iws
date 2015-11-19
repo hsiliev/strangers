@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86787fba-131f-45f6-a048-2af04f7aac25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concourse/pipeline.yml" afterPath="$PROJECT_DIR$/concourse/pipeline.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/build" afterPath="$PROJECT_DIR$/scripts/build" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/package" afterPath="$PROJECT_DIR$/scripts/package" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/test" afterPath="$PROJECT_DIR$/scripts/test" />
-    </list>
+    <list default="true" id="86787fba-131f-45f6-a048-2af04f7aac25" name="Default" comment="" />
     <ignored path="strangers.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -93,8 +88,8 @@
       <file leaf-file-name="test" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/test">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09664948">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.13530928">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -1021,16 +1016,16 @@
       <workItem from="1447245892559" duration="98000" />
       <workItem from="1447775075676" duration="336000" />
       <workItem from="1447832312162" duration="667000" />
-      <workItem from="1447862333044" duration="232000" />
+      <workItem from="1447862333044" duration="497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21046000" />
+    <option name="totallyTimeSpent" value="21311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1469,8 +1464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09664948">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.13530928">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
       </provider>
