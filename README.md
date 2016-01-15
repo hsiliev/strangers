@@ -69,3 +69,8 @@ Presentation
 ------------
 
 Check the [presentation README](https://github.com/hsiliev/strangers/blob/master/presentation/README.md).
+
+ISTA 2015 Video
+---------------
+
+For the lazy, there is a [video recording](https://www.youtube.com/watch?v=0eu17vWygIc) from the ISTA 2015.
